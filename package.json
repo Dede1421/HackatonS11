@@ -1,0 +1,30 @@
+{
+  "name": "hackatons11",
+  "version": "1.0.0",
+  "description": "Ejercicios de Js con DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "terser src/scripts/main.js src/scripts/main2.js --compress --output src/scripts/main.min.js"
+
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dede1421/HackatonS11.git"
+  },
+  "keywords": [
+    "Ejercicios",
+    "Js",
+    "y",
+    "DOM"
+  ],
+  "author": "Andre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dede1421/HackatonS11/issues"
+  },
+  "homepage": "https://github.com/Dede1421/HackatonS11#readme",
+  "dependencies": {
+    "terser": "^5.1.0"
+  }
+}
