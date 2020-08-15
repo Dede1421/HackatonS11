@@ -5,7 +5,8 @@ function toDoList() {
   const form1 = document.querySelector("form");
 
   // funciones
-  const agregarTarea = () => {
+  const agregarTarea = (event) => {
+    event.preventDefault();
     lista.appendChild(nuevaTarea(tareaInput.value));
     tareaInput.value = "";
   };
