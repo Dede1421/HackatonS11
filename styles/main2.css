@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 20px;
+}
+
+.container {
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.banner {
+  background-image: url("/images/Adventure.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 125px 50px;
+}
+
+.task {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+.form input {
+  margin: 20px 0px;
+  padding: 10px;
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+  background: #f4f4f4;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+  border: 1px solid #000;
+  margin: 20px 0px;
+  padding: 10px 50px;
+  background: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+button:hover {
+  background: rgba(29, 161, 242, 0.7);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.list li {
+  padding: 15px 0px;
+  cursor: pointer;
+}
